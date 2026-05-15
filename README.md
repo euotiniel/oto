@@ -82,54 +82,6 @@ Long-term areas of study include:
 
 ---
 
-## Project Structure
-
-```txt
-oto/
-├── README.md
-├── Makefile
-├── .gitignore
-│
-├── docs/
-│   ├── architecture.md
-│   ├── grammar.md
-│   ├── philosophy.md
-│   └── roadmap.md
-│
-├── examples/
-│   └── hello.oto
-│
-├── src/
-│   ├── main.c
-│   │
-│   ├── error/
-│   │   ├── error.c
-│   │   └── error.h
-│   │
-│   ├── interpreter/
-│   │   ├── interpreter.c
-│   │   └── interpreter.h
-│   │
-│   ├── lexer/
-│   │   ├── lexer.c
-│   │   ├── lexer.h
-│   │   ├── token.c
-│   │   └── token.h
-│   │
-│   └── parser/
-│       ├── ast.c
-│       ├── ast.h
-│       ├── parser.c
-│       └── parser.h
-│
-└── tests/
-    ├── lexer/
-    ├── parser/
-    └── interpreter/
-```
-
----
-
 ## Status
 
 The project is currently in its earliest stage.
