@@ -1,6 +1,6 @@
-# Oto
+# oto
 
-Oto is an experimental compiler and runtime study project written in C.
+oto is an experimental compiler and runtime study project written in C.
 
 The project is being developed incrementally as a way to study how source code becomes execution: from lexing and parsing to ASTs, bytecode, virtual machines, and runtime systems.
 
