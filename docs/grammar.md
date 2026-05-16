@@ -57,13 +57,14 @@ The `write` statement evaluates an expression and outputs its result.
 oto uses a compact flat expression grammar:
 
 ```txt
-expression -> expression operator expression
+expression -> expression "+" expression
+            | expression "-" expression
+            | expression "*" expression
+            | expression "/" expression
             | "(" expression ")"
             | NUMBER
             | STRING
             | IDENTIFIER
-
-operator -> "+" | "-" | "*" | "/"
 ```
 
 The grammar is intentionally left-recursive.
